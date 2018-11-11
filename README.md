@@ -36,4 +36,4 @@ Shimmer,Shimmer(dB),Shimmer:APQ3,Shimmer:APQ5,Shimmer:APQ11,Shimmer:DDA - Severa
 NHR,HNR - Two measures of ratio of noise to tonal components in the voice 
 RPDE - A nonlinear dynamical complexity measure 
 DFA - Signal fractal scaling exponent 
-PPE - A nonlinear measure of fundamental frequency variation 
+PPE - A nonlinear measure of fundamental frequency variation
