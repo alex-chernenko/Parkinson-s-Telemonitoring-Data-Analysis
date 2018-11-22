@@ -1,10 +1,10 @@
 # Parkinson-s-Telemonitoring-Data-Analysis
 
-Source:
+## Source:
 
 The dataset was created by Athanasios Tsanas (tsanasthanasis '@' gmail.com) and Max Little (littlem '@' physics.ox.ac.uk) of the University of Oxford, in collaboration with 10 medical centers in the US and Intel Corporation who developed the telemonitoring device to record the speech signals. The original study used a range of linear and nonlinear regression methods to predict the clinician's Parkinson's disease symptom score on the UPDRS scale.
 
-Data Set Information:
+## Data Set Information:
 
 This dataset is composed of a range of biomedical voice measurements from 42 people with early-stage Parkinson's disease recruited to a six-month trial of a telemonitoring device for remote symptom progression monitoring. The recordings were automatically captured in the patient's homes. 
 
@@ -23,17 +23,17 @@ Max A. Little, Patrick E. McSharry, Eric J. Hunter, Lorraine O. Ramig (2009),
 IEEE Transactions on Biomedical Engineering, 56(4):1015-1022 
 
 
-Attribute Information:
+### Attribute Information:
 
-subject# - Integer that uniquely identifies each subject 
-age - Subject age 
-sex - Subject gender '0' - male, '1' - female 
-test_time - Time since recruitment into the trial. The integer part is the number of days since recruitment. 
-motor_UPDRS - Clinician's motor UPDRS score, linearly interpolated 
-total_UPDRS - Clinician's total UPDRS score, linearly interpolated 
-Jitter(%),Jitter(Abs),Jitter:RAP,Jitter:PPQ5,Jitter:DDP - Several measures of variation in fundamental frequency 
-Shimmer,Shimmer(dB),Shimmer:APQ3,Shimmer:APQ5,Shimmer:APQ11,Shimmer:DDA - Several measures of variation in amplitude 
-NHR,HNR - Two measures of ratio of noise to tonal components in the voice 
-RPDE - A nonlinear dynamical complexity measure 
-DFA - Signal fractal scaling exponent 
-PPE - A nonlinear measure of fundamental frequency variation
+subject# - Integer that uniquely identifies each subject <br>
+age - Subject age <br>
+sex - Subject gender '0' - male, '1' - female <br>
+test_time - Time since recruitment into the trial. The integer part is the number of days since recruitment. <br>
+motor_UPDRS - Clinician's motor UPDRS score, linearly interpolated <br>
+total_UPDRS - Clinician's total UPDRS score, linearly interpolated <br>
+Jitter(%),Jitter(Abs),Jitter:RAP,Jitter:PPQ5,Jitter:DDP - Several measures of variation in fundamental frequency <br>
+Shimmer,Shimmer(dB),Shimmer:APQ3,Shimmer:APQ5,Shimmer:APQ11,Shimmer:DDA - Several measures of variation in amplitude <br>
+NHR,HNR - Two measures of ratio of noise to tonal components in the voice <br>
+RPDE - A nonlinear dynamical complexity measure <br>
+DFA - Signal fractal scaling exponent <br>
+PPE - A nonlinear measure of fundamental frequency variation <br>
